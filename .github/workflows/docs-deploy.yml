@@ -10,8 +10,7 @@ on:
     branches:
       - main
 permissions:
-  pages: write
-  id-token: write
+  contents: write
 jobs:
   docs-deploy:
     runs-on: ubuntu-latest
