@@ -151,7 +151,7 @@
     "webpack-cli": "^5.0.1"
   },
   "dependencies": {
-    "fflate": "^0.8.0",
+    "fflate": "^0.8.2",
     "tslib": "^2.3.1",
     "uuid": "^14.0.1"
   },
