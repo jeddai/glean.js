@@ -3,12 +3,7 @@ name: Docs Deploy
 on:
   push:
     branches:
-      - main
       - release
-      - /^release-.*/
-  pull_request:
-    branches:
-      - main
 jobs:
   docs-deploy:
     runs-on: ubuntu-latest
