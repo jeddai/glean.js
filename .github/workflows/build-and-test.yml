@@ -41,7 +41,6 @@ jobs:
       - name: Run Integration Tests
         run: npm --prefix ./glean run test:integration
   browser-compat-smoke-tests:
-    if: false
     runs-on: ubuntu-latest
     steps:
       - *checkout
